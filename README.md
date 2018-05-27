@@ -1,4 +1,4 @@
-# stan-sight-plugins
+# theia plugins
 
 
 Plugins for Stan Sight Server
