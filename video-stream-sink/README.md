@@ -1,4 +1,4 @@
-# stan-sight-plugins
+# Theia Plugin : Video Stream Plugin
 
 
-Plugins for Stan Sight Server
+Stream video's from camera

@@ -1,4 +1,4 @@
-# stan-sight-plugins
+# Theia Plugin : Theia Source
 
 
-Plugins for Stan Sight Server
+Source for getting data from Theia hardware 
