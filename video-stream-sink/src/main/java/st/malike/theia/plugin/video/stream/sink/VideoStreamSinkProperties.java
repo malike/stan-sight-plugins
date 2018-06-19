@@ -12,6 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author malike_st
  */
 @ConfigurationProperties("videoStreamSinkProperties")
+@Configuration
 public class VideoStreamSinkProperties {
 
 }

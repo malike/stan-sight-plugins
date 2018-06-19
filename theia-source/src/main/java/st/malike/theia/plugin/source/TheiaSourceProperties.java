@@ -6,12 +6,14 @@
 package st.malike.theia.plugin.source;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  *
  * @author malike_st
  */
 @ConfigurationProperties("theiaSourceProperties")
+@Configuration
 public class TheiaSourceProperties {
 
 }

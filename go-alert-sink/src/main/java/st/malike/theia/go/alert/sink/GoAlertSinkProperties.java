@@ -11,6 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author malike_st
  */
 @ConfigurationProperties("goAlertSinkProperties")
+@Configuration
 public class GoAlertSinkProperties {
 
 
