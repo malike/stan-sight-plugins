@@ -6,6 +6,7 @@
 package st.malike.theia.go.alert.sink;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author malike_st
