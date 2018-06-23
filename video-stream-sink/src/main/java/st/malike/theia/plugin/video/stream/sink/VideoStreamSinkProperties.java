@@ -6,6 +6,7 @@
 package st.malike.theia.plugin.video.stream.sink;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  *
