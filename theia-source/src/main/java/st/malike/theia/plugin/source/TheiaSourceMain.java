@@ -14,7 +14,6 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.messaging.Source;
 
 /**
- *
  * @author malike_st
  */
 @EnableBinding(Source.class)
@@ -22,14 +21,14 @@ import org.springframework.cloud.stream.messaging.Source;
 @SpringBootApplication
 public class TheiaSourceMain {
 
-    private static final Logger logger = Logger.getAnonymousLogger();
-    @Autowired
-    private TheiaSourceProperties theiaSourceProperties;
+  private static final Logger logger = Logger.getAnonymousLogger();
+  @Autowired
+  private TheiaSourceProperties theiaSourceProperties;
 
 
-    public static void main(String[] args) {
-        SpringApplication.run(TheiaSourceMain.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(TheiaSourceMain.class, args);
+  }
 
 
 }

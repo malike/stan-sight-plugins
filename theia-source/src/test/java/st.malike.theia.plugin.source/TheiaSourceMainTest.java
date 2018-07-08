@@ -13,6 +13,6 @@ public class TheiaSourceMainTest {
 
   @Test
   public void contextLoads() {
-    TheiaSourceMain.main(new String[] {});
+    TheiaSourceMain.main(new String[]{});
   }
 }

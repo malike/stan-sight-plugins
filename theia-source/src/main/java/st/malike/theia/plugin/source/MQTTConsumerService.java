@@ -11,11 +11,11 @@ public class MQTTConsumerService {
     this.theiaSourceProperties = theiaSourceProperties;
   }
 
-  public void subscribe(){
+  public void subscribe() {
 
   }
 
-  public String read(){
+  public String read() {
     return null;
   }
 }

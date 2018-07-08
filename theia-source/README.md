@@ -7,7 +7,7 @@ communicate to the software world.
 It uses an MQTT protocol by which it recieves streams of data from
 the [Theia Hardware](). This can then be _routed_ over [Apache Kafka]()
 [RabbitMQ]() or [Redis]() channels using [Spring Data Flow]() to other end points from sending 
-[notifications]() when a face is identified in the stream or streaming the video to [YouTube]().
+[notifications]() when a [face is identified]() in the stream or uploading the video to [YouTube]().
 
 I've built sample plugins based on this flow to show how it works end to end.
 
