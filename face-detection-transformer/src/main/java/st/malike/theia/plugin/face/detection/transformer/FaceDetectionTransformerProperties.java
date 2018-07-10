@@ -5,7 +5,6 @@
  */
 package st.malike.theia.plugin.face.detection.transformer;
 
-import java.util.List;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,13 +15,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FaceDetectionTransformerProperties {
 
-  private List<String> imageURL;
+  private String imageURL;
 
-  public List<String> getImageURL() {
+  public String getImageURL() {
     return imageURL;
   }
 
-  public void setImageURL(List<String> imageURL) {
+  public void setImageURL(String imageURL) {
     this.imageURL = imageURL;
   }
 }
