@@ -6,7 +6,6 @@
 package st.malike.theia.plugin.source;
 
 import java.util.logging.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -22,8 +21,6 @@ import org.springframework.cloud.stream.messaging.Source;
 public class TheiaSourceMain {
 
   private static final Logger logger = Logger.getAnonymousLogger();
-  @Autowired
-  private TheiaSourceProperties theiaSourceProperties;
 
 
   public static void main(String[] args) {

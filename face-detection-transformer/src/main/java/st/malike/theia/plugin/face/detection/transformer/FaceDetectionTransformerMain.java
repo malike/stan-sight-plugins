@@ -14,7 +14,6 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.integration.annotation.Transformer;
 
 /**
- *
  * @author malike_st
  */
 @EnableBinding(Transformer.class)
@@ -22,14 +21,14 @@ import org.springframework.integration.annotation.Transformer;
 @SpringBootApplication
 public class FaceDetectionTransformerMain {
 
-    private static final Logger logger = Logger.getAnonymousLogger();
-    @Autowired
-    private FaceDetectionTransformerProperties faceDetectionTransformerProperties;
+  private static final Logger logger = Logger.getAnonymousLogger();
+  @Autowired
+  private FaceDetectionTransformerProperties faceDetectionTransformerProperties;
 
 
-    public static void main(String[] args) {
-        SpringApplication.run(FaceDetectionTransformerMain.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(FaceDetectionTransformerMain.class, args);
+  }
 
 
 }
