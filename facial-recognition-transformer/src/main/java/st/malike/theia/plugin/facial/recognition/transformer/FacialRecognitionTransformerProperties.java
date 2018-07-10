@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package st.malike.theia.plugin.face.detection.transformer;
+package st.malike.theia.plugin.facial.recognition.transformer;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @ConfigurationProperties("faceDetectionTransformerProperties")
 @Configuration
-public class FaceDetectionTransformerProperties {
+public class FacialRecognitionTransformerProperties {
 
   private String imageURL;
 

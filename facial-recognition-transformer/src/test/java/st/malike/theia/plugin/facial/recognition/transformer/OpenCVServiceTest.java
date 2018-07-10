@@ -1,4 +1,4 @@
-package st.malike.theia.plugin.face.detection.transformer;
+package st.malike.theia.plugin.facial.recognition.transformer;
 
 import org.junit.After;
 import org.junit.Before;
