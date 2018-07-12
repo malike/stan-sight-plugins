@@ -15,7 +15,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FacialRecognitionTransformerProperties {
 
+private String pythonFacialRecognitionFile;
   private String imageURL;
+
+
+  public String getPythonFacialRecognitionFile() {
+    return pythonFacialRecognitionFile;
+  }
+
+  public void setPythonFacialRecognitionFile(String pythonFacialRecognitionFile) {
+    this.pythonFacialRecognitionFile = pythonFacialRecognitionFile;
+  }
 
   public String getImageURL() {
     return imageURL;
