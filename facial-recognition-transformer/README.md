@@ -1,8 +1,15 @@
-# Theia Plugin : Go Alert Sink
+# Theia Plugin :  Facial Recognition
 
 
-To send alerts based on events from Camera
+Built with OpenCV for facial identification.
+This module works with a python script serving as a Java wrapper for the Python script.
+The actual Facial recognition is  done in the python script.
 
+
+### Getting Started
+
+
+The configurations required by theia-source are :
 
 i. `username` :
 

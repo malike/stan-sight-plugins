@@ -1,0 +1,50 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "name": "theiaSourceProperties",
+      "type": "st.malike.theia.plugin.source.TheiaSourceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "name": "theiaSourceProperties.connection-u-r-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "name": "theiaSourceProperties.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "defaultValue": 0,
+      "name": "theiaSourceProperties.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "defaultValue": 0,
+      "name": "theiaSourceProperties.qos",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "name": "theiaSourceProperties.topic",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "name": "theiaSourceProperties.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "st.malike.theia.plugin.source.TheiaSourceProperties",
+      "defaultValue": 0,
+      "name": "theiaSourceProperties.wai-time",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

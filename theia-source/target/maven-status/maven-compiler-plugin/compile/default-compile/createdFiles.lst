@@ -1,0 +1,4 @@
+META-INF/spring-configuration-metadata.json
+st/malike/theia/plugin/source/TheiaSourceMain.class
+st/malike/theia/plugin/source/TheiaSourceProperties.class
+st/malike/theia/plugin/source/MQTTConsumerService.class
